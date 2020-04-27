@@ -11,4 +11,5 @@
 
 ## Использование:
 - Поместите файлы, которые нужно защитить водяным знаком в папку input_directory
-`python3 watermark.py`
+`
+python3 watermark.py`
