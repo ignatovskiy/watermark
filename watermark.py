@@ -8,9 +8,9 @@ OUTPUT_DIRECTORY = 'output_images/'
 WATERMARK_FILE = 'watermark.png'
 
 
-def clean_input_dir():
+def clean_output_dir():
     """
-    Clears files in INPUT_DIRECTORY
+    Clears files in OUTPUT_DIRECTORY
     """
 
     for file in os.listdir(OUTPUT_DIRECTORY):
@@ -110,7 +110,7 @@ def watermark_with_transparency(file_name: str):
 
 
 def main():
-    clean_input_dir()
+    clean_output_dir()
     input_dir_files_handler()
 
 
